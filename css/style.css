@@ -1,0 +1,194 @@
+/* ================================= 
+          MAIN DOM Elements
+ ================================= */
+.optimize {
+    background: #ecf0f1;
+    /*font-size: 12px;*/
+    color: #556366
+}
+    header,
+    footer {
+        background: #fff
+    }
+    section {
+        margin: 6em 0
+    }
+    footer {
+        padding: 3em 0
+    }
+    a {
+        color: #eb6e52
+    }
+    a:focus, 
+    a:hover {
+        color: #ef7759;
+        text-decoration: none
+    }
+
+
+/* ================================= 
+              BUTTONS
+ ================================= */
+.btn {
+    padding: 15px 50px;
+    line-height: 1.42857143;
+    border: 2px solid transparent;
+    border-radius: 28px
+}
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: none
+}
+
+/* ===== OPTIMIZE THEME BUTTONS ===== */
+/* ===== default ===== */
+.btn-optimize {
+    background: #fff;
+    color: #e55f3c;
+    border-color: #e5eff1
+}
+.btn-optimize.active,
+.btn-optimize.focus,
+.btn-optimize:active,
+.btn-optimize:focus,
+.btn-optimize:hover,
+.open > .dropdown-toggle.btn-optimize {
+    color: #eb6e52;
+    background: #e5eff1
+}
+
+/* ===== orange ===== */
+.btn-optimize-orange {
+    font-size: 18px;
+    color: #fff;
+    background: #e75e3c
+}
+.btn-optimize-orange.active,
+.btn-optimize-orange.focus,
+.btn-optimize-orange:active,
+.btn-optimize-orange:focus,
+.btn-optimize-orange:hover,
+.open > .dropdown-toggle.btn-optimize-orange {
+    color: #fff;
+    background: #ef7759
+}
+
+
+/* ================================= 
+            NAVIGATION BAR
+ ================================= */
+.navbar {
+    min-height: 110px;
+    margin: 0
+}
+
+/* navigation modificator like navbar-default for colors pallette */
+.navbar-optimize {
+    background: none;
+    border-color: #e5eff1;
+    padding: 3em 0
+}
+
+    /* ===== NAVIGATION HEADER SECTION ===== */
+    .navbar-header {}
+
+        /* ===== brand name ===== */
+        .navbar-brand {
+            display: block;
+            float: none;
+            height: auto;
+            padding: 0 15px 5px;
+            font-size: 22px;
+            line-height: 1
+        }
+        .navbar-optimize .navbar-brand {}
+
+        /* ===== brand desctiption ===== */    
+        .navbar-text {
+             margin: 0 0 0 15px
+        }
+        @media (min-width: 768px) {
+            .navbar-text {
+                float: none;
+                margin-left: 0
+            }
+        }
+        .navbar-optimize .navbar-text {
+            color: #6e8185
+        }
+        
+        /* ===== toogle button ===== */ 
+        .navbar-toggle {
+            padding: 10px;
+            margin: 0 15px 0 0
+        }
+        
+        .navbar-optimize .navbar-toggle {
+            border-color: #e5eff1
+        }
+        .navbar-optimize .navbar-toggle:focus,
+        .navbar-optimize .navbar-toggle:hover {
+            background: #e5eff1
+        }
+        .navbar-optimize .navbar-toggle .icon-bar {
+            background: #eb6e52
+        }
+
+        /* ===== buttons at navbar ===== */
+        .navbar-btn {
+            margin: 0
+        }
+
+
+/* ================================= 
+               MODULES
+ ================================= */
+/* ===== TOP SECTION ===== */
+.top-section {
+    background: #fafafc;
+    padding: 25px 15px;
+    font-size: 20px
+}
+    .top-section__title {
+        font-weight: bold;
+        color: #eb6e52;
+    }
+    .top-section__count {}
+
+
+/* ===== FOOTER LINKS ===== */
+.links {}
+    .links__item {
+        margin-right: 20px
+    }
+        .links__anchor {
+            color: #6f8088
+        }
+
+
+.suggestion {
+    margin-bottom: 1em;
+    background: #fff;
+    padding: 1.5em 0;
+}
+.suggestion--basic {}
+.suggestion--medium {}
+.suggestion--high {}
+
+    .suggestion__col {}
+
+    .suggestion__col--message {}
+
+        .suggestion__message {}
+            .suggestion__more {}
+
+    .suggestion__col--rank {}
+        .suggestion__rank {}
+
+    .suggestion__col--date {}
+        .suggestion__date {}    
+
